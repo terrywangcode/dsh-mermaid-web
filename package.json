@@ -11,11 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cordiverse/dsh-mermaid-web.git"
+    "url": "git+https://github.com/terrywangcode/dsh-mermaid-web.git"
   },
-  "homepage": "https://github.com/cordiverse/dsh-mermaid-web#readme",
+  "homepage": "https://github.com/terrywangcode/dsh-mermaid-web#readme",
   "bugs": {
-    "url": "https://github.com/cordiverse/dsh-mermaid-web/issues"
+    "url": "https://github.com/terrywangcode/dsh-mermaid-web/issues"
   },
   "packageManager": "pnpm@11.7.0",
   "type": "module",

@@ -12,4 +12,4 @@ All notable changes to this project are documented in this file.
 - Restore the original code block and all plugin-owned DOM changes during Cordis disposal or client-plugin HMR.
 - Display controlled parse errors while preserving the original Mermaid source.
 
-[0.1.0]: https://github.com/cordiverse/dsh-mermaid-web/releases/tag/v0.1.0
+[0.1.0]: https://github.com/terrywangcode/dsh-mermaid-web/releases/tag/v0.1.0

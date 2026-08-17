@@ -1,7 +1,7 @@
 # dsh-mermaid-web
 
-[![CI](https://github.com/cordiverse/dsh-mermaid-web/actions/workflows/ci.yml/badge.svg)](https://github.com/cordiverse/dsh-mermaid-web/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/cordiverse/dsh-mermaid-web)](https://github.com/cordiverse/dsh-mermaid-web/releases)
+[![CI](https://github.com/terrywangcode/dsh-mermaid-web/actions/workflows/ci.yml/badge.svg)](https://github.com/terrywangcode/dsh-mermaid-web/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/terrywangcode/dsh-mermaid-web)](https://github.com/terrywangcode/dsh-mermaid-web/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An out-of-tree DeepSeek Harness Web UI plugin that turns settled fenced code blocks labeled `mermaid` into Mermaid.js SVG diagrams.
@@ -20,7 +20,7 @@ flowchart LR
 From a DeepSeek Harness checkout:
 
 ```sh
-pnpm dsh plugin --profile web add github:cordiverse/dsh-mermaid-web
+pnpm dsh plugin --profile web add github:terrywangcode/dsh-mermaid-web
 pnpm dsh --profile web web
 ```
 
@@ -29,7 +29,7 @@ The repository commits its built browser bundle, so installing from GitHub does 
 To install a specific release:
 
 ```sh
-pnpm dsh plugin --profile web add github:cordiverse/dsh-mermaid-web#v0.1.0
+pnpm dsh plugin --profile web add github:terrywangcode/dsh-mermaid-web#v0.1.0
 ```
 
 ## Build from source
