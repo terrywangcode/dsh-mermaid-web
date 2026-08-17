@@ -1,0 +1,63 @@
+{
+  "name": "dsh-mermaid-web",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness Web UI plugin that renders settled Mermaid fenced code blocks as diagrams",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "mermaid",
+    "diagram",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordiverse/dsh-mermaid-web.git"
+  },
+  "homepage": "https://github.com/cordiverse/dsh-mermaid-web#readme",
+  "bugs": {
+    "url": "https://github.com/cordiverse/dsh-mermaid-web/issues"
+  },
+  "packageManager": "pnpm@11.7.0",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "lib/client.js",
+    "lib/client.js.map",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "build": "tsdown",
+    "check": "pnpm run typecheck && pnpm run build",
+    "typecheck": "tsc --noEmit --strict --skipLibCheck --target ES2022 --module NodeNext --moduleResolution NodeNext --lib ES2022,DOM src/client.ts",
+    "verify:live": "node scripts/verify-live.mjs"
+  },
+  "dependencies": {
+    "mermaid": "11.16.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.49.0",
+    "tsdown": "^0.22.2",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  },
+  "license": "MIT"
+}

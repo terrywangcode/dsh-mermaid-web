@@ -1,0 +1,2 @@
+lib/client.js -diff linguist-generated=true whitespace=-trailing-space
+lib/client.js.map -diff linguist-generated=true whitespace=-trailing-space
