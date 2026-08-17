@@ -13,7 +13,13 @@ flowchart LR
 ```
 ````
 
-![A large Mermaid diagram fitted inside the fullscreen workspace](artifacts/fullscreen-workspace.png)
+### Inline diagram
+
+![A large Mermaid architecture diagram rendered inline with zoom controls](artifacts/zoom-controls.png)
+
+### Fullscreen workspace
+
+![The same Mermaid architecture diagram fitted inside the fullscreen workspace](artifacts/fullscreen-workspace.png)
 
 ## Install
 
